@@ -1,0 +1,1077 @@
+10.0.0.1 - - [26/Nov/2024 00:29:49] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:33:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:37:37] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:45:47] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:59:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:59:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 00:59:40] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:03:07] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:55] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:55] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:55] "GET / HTTP/1.1" 200 -
+Running server2
+Serving HTTP on port 80
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34096)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34098)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34100)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34102)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34104)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34106)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34108)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34110)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34112)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34114)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34116)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34118)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34120)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34122)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34124)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34126)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34128)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34130)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34132)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34148)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34150)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34152)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34154)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34340)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34342)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34344)
+----------------------------------------
+--------------------------Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:55] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:56] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:08:56] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:09:10] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:15:24] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:15:24] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:15:24] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:15:25] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:15:28] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:23:51] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:33] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:27:34] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:31:39] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:31:39] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:31:39] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:31:39] "GET / HTTP/1.1" 200 -
+--------------
+Exception happened during processing of request from ('10.0.0.1', 34346)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34348)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34350)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34352)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34360)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34810)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34812)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34814)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34816)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34818)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34820)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34822)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34824)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34826)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34828)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34830)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34846)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34848)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34850)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34852)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34854)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34856)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34858)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34860)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34862)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('10.0.0.1', 34864)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request froTraceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+10.0.0.1 - - [26/Nov/2024 01:31:39] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe

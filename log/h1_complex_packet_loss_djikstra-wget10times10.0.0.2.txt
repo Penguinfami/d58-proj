@@ -1,0 +1,20 @@
+--2024-11-26 00:20:25--  http://10.0.0.2/
+Connecting to 10.0.0.2:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 425162 (415K) [text/html]
+Saving to: 'testwget.html'
+
+     0K .......... .......... .                                 5% 29.0K=0.7s
+
+2024-11-26 00:20:56 (29.0 KB/s) - Read error at byte 21548/425162 (Connection timed out). Giving up.
+
+--2024-11-26 00:20:56--  http://10.0.0.2/
+Connecting to 10.0.0.2:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Giving up.
+
+--2024-11-26 00:21:26--  http://10.0.0.2/
+Connecting to 10.0.0.2:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Giving up.
+

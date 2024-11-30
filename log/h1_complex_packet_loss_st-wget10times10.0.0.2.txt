@@ -1,0 +1,12 @@
+--2024-11-25 23:48:41--  http://10.0.0.2/
+Connecting to 10.0.0.2:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2024-11-26 00:03:42--  (try: 2)  http://10.0.0.2/
+Connecting to 10.0.0.2:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 425162 (415K) [text/html]
+Saving to: 'testwget.html'
+
+     0K .......... .......... ...

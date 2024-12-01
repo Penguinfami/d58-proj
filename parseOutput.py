@@ -53,17 +53,17 @@ def parseWget(lines):
             expectedLength = int(result.group(1))
         result = re.search(dataPointRegex, line)
         if result is not None:
-            increments+=lengthPerIncrement
             averageRate.append([increments, getRate(result.group(1))])
+            increments+=lengthPerIncrement
         else:
             result = re.search(finalRegex, line)
             if result is not None:
-                increments+=expectedLength % lengthPerIncrement
-                roundIncrements += 1
                 averageRate.append([increments, getRate(result.group(1))])
                 incrementsSec.append([roundIncrements, float(result.group(2))])
                 totalTime += float(result.group(2))
                 overallTime.append([roundIncrements, totalTime])
+                increments+=expectedLength % lengthPerIncrement
+                roundIncrements += 1
                 
     return [[overallTime, "KB downloaded", "Culmulative Time (s)"], [averageRate, "KB downloaded", "Download Speed (KB/s)"], [incrementsSec, "KB downloaded", "Time (s)"]]
 

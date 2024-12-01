@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo mn -c
 
-cd ~/cs144_lab3/pox_module/project
+cd ~/pox_module/project
 
 # ensure it is formatted
 while getopts "d" opt; do

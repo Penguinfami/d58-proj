@@ -210,6 +210,7 @@ def setup_link_state_changes(net):
 def scheduleLinkStateUpdates(link):
     print("New link delay update" + link.intf1.name + " t=" + str(time.time()))
     randomDelay = random.randint(1, 10)
+    randomLoss = random.randint(0, 10)
     randomBandwidth = random.randint(1, 100)/10.0
     attribute = sys.argv[1]
     if attribute == "delay":
@@ -222,6 +223,18 @@ def scheduleLinkStateUpdates(link):
         link.intf1.config(bw=randomBandwidth)
         if link.intf1.name not in updatedParams:
             updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["bw"] = str(randomBandwidth)
+    elif attribute == "loss":
+        link.intf1.config(loss=randomBandwidth)
+        if link.intf1.name not in updatedParams:
+            updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["loss"] = str(randomBandwidth)
+    elif attribute == "delaybw":
+        link.intf1.config(delay=(str(randomDelay) + 'ms'))
+        if link.intf1.name not in updatedParams:
+            updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["delay"] = str(randomDelay) + 'ms'
+        link.intf1.config(bw=randomBandwidth)
         updatedParams[link.intf1.name]["bw"] = str(randomBandwidth)
     else:
         if link.intf1.name not in updatedParams:

@@ -3,11 +3,10 @@ from pox.host_tracker import host_tracker
 import pox.openflow.libopenflow_01 as of
 from pox.lib.revent import EventMixin
 from pox.lib.packet import ethernet, ipv4
-from shortestPathsAlgorithm import ShortestPathsAlgorithm, Node, Edge
+from project.shortestPathsAlgorithm import ShortestPathsAlgorithm, Node, Edge
 from pox.openflow.discovery import Discovery, LinkEvent
 from pox.topology import topology
 import pox.lib.packet.arp as arp
-from projectnetwork import myNetwork
 from pox.lib.addresses import EthAddr, IPAddr
 import re
 import json
@@ -66,7 +65,7 @@ class ShortestPathController(EventMixin):
         print("Loading network data")
         self.computingBlocked = True
 
-        with open("/home/mininet/cs144_lab3/pox_module/project/networkdata.json", "r") as f:
+        with open("/home/mininet/pox_module/project/networkdata.json", "r") as f:
             data = json.load(f)
             #print(data)
             for link in data["links"]:
@@ -128,7 +127,7 @@ class ShortestPathController(EventMixin):
 
     def loadUpdatedNetworkData(self):
         print("Loading updated data")
-        with open("/home/mininet/cs144_lab3/pox_module/project/networkdata.json", "r") as f:
+        with open("/home/mininet/pox_module/project/networkdata.json", "r") as f:
             data = json.load(f)
             #print(data)
             self.computingBlocked = True

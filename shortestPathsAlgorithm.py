@@ -10,7 +10,7 @@ class ShortestPathsAlgorithm:
 
     def computePath(self, algorithm, attr, comp):
         print("Sorting by " + attr)
-        if algorithm == "djikstra":
+        if algorithm == "dijkstra":
             self.djikstra(attr, comp)
         elif algorithm == "st":
             self.spanning(attr)

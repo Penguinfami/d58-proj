@@ -78,7 +78,9 @@ def createGraphs(graphs, titles, dir):
         plt.title(title, wrap=True)
         plt.xlabel(graph[1])
         plt.ylabel(graph[2])
-        plt.savefig("%s/%s.png" % (dir, fileTitle))
+        figLoc = "%s/%s.png" % (dir, fileTitle)
+        print("Saving plot to %s" % figLoc)
+        plt.savefig(figLoc)
         plt.clf()
 
 def createCombinedGraphs(graphs, titles, dir):
@@ -96,9 +98,11 @@ def createCombinedGraphs(graphs, titles, dir):
         plt.xlabel(graphRef[1])
         plt.ylabel(graphRef[2])
         plt.legend()
-        plt.savefig("%s/%s.png" % (dir, fileTitle))
+        figLoc = "%s/%s.png" % (dir, fileTitle)
+        print("Saving plot to %s" % figLoc)
+        plt.savefig(figLoc)
         plt.clf()
-    print("Len graphs=%d, len titles=%d" % (len(titles), len(graphs)))
+    #print("Len graphs=%d, len titles=%d" % (len(titles), len(graphs)))
 
 if __name__ == "__main__":
     import sys
@@ -133,7 +137,7 @@ if __name__ == "__main__":
                     section.append(l)
             comp = True
 
-    print(graphs)
+    #print(graphs)
     if comp:
         createCombinedGraphs(graphs, graphTitles, "./plots")
     else:

@@ -189,26 +189,19 @@ class ShortestPathController(EventMixin):
 
     def _handle_PacketIn(self, event):
         packet = event.parsed
-        #print("Handle packet from src=%s to %s, dpid1=%d" % (packet.src, packet.dst, event.dpid))
-        #print(dir(packet))
-        #print("Packet type: %s", type(packet))  # See the type of the outer packet
-        #print("Packet payload type: %s", type(packet.payload))  # See the type of the payload
-        # Example: Forward packet to a specific port
-               
+
         while self.computingBlocked:
             print("Waiting....")
 
         if isinstance(packet, ethernet) and isinstance(packet.payload, ipv4):
             ip_packet = packet.next
             #print("IPv4: src=%s, dst=%s, proto=%s " % (ip_packet.srcip, ip_packet.dstip, ip_packet.protocol))
-            #print(self.macToInterface)
             etherSourceNode=self.macToInterface[str(packet.src)]["node"]
             etherTargetNode=self.macToInterface[str(packet.dst)]["node"]
             #print("ETHER src=%s dst=%s" % (etherSourceNode, etherTargetNode))
             #print(self.macToInterface)
             sourceNode=self.getNodeFromIp(ip_packet.srcip)
             targetNode=self.getNodeFromIp(ip_packet.dstip)
-            #print("IP src=%s dst=%s" % (sourceNode, targetNode))
             ##print(self.forwardingTable[etherSourceNode])
             theoreticalSrcNextHop = self.routing.getNextInPath(etherSourceNode, targetNode)
             theoreticalSrcMAC = self.getMACFromNode(theoreticalSrcNextHop)
@@ -236,11 +229,7 @@ class ShortestPathController(EventMixin):
             ether_forward = ethernet(dst=EthAddr(nextMAC), src=EthAddr(srcMac), type=ethernet.IP_TYPE)
             ether_forward.set_payload(ip_packet)
             ofp = of.ofp_packet_out()
-            #print(self.linkPorts)
-            #print("Outing node=%s, nexthop=%s" % (etherTargetNode, nextHop))
             ofp.actions.append(of.ofp_action_output(port=outgoingPort))
-            #print("Sending IP reply on to port ", event.port, outgoingPort)
-            #print("Sending packet with macs src=%s, dst=%s" % (srcMac, nextMAC))
             ofp.data = ether_forward.pack()
             event.connection.send(ofp)
 
@@ -252,19 +241,9 @@ class ShortestPathController(EventMixin):
 
             # Check if it's an ARP request
             if arp_packet.opcode == arp.REQUEST:
-                #print("Received ARP Request from %s" % arp_packet.hwsrc)
 
-                # If the requested IP is in our "known" IP-to-MAC mapping
                 requested_ip = arp_packet.protodst  # This is the IP that the request is asking for
-                #print("ARP Request for IP: %s" % requested_ip)
-                #print("OR IS IT %s " % arp_packet.protodst)
-                #print("ARP TABLE")
-                #print(self.arp_table)
-                #print(type(arp_packet.protosrc))
-                #print("MAC TO INTERFACE")
-                #print(self.macToInterface)
-                #print("10.0.0.1" in self.arp_table)
-                #print(str(requested_ip) in self.arp_table)
+
                 if str(requested_ip) in self.arp_table:
                     # We found a matching MAC address for the requested IP
                     mac_address = self.arp_table[str(requested_ip)]
@@ -274,14 +253,13 @@ class ShortestPathController(EventMixin):
                                         hwsrc=EthAddr(mac_address), hwdst=EthAddr(arp_packet.hwsrc),
                                         protosrc=IPAddr(requested_ip), protodst=IPAddr(arp_packet.protosrc))
 
-                    # Send the ARP reply back to the switch
+                    # Send the ARP reply 
                     ether_reply = ethernet(dst=EthAddr(packet.src), src=EthAddr(mac_address), type=ethernet.ARP_TYPE)
                     ether_reply.set_payload(arp_reply)
 
-                    # Send the packet out through the switch (port is found in event of packet_in)
+                    # packet out through the switch
                     ofp = of.ofp_packet_out()
                     ofp.actions.append(of.ofp_action_output(port=event.port))
-                    #print("Sending ARP reply on port ", event.port)
                     ofp.data = ether_reply.pack()
                     event.connection.send(ofp)
 

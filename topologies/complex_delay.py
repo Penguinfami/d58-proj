@@ -209,8 +209,9 @@ def setup_link_state_changes(net):
         scheduler.enter(5, 1, scheduleLinkStateUpdates, [link])
 
 def scheduleLinkStateUpdates(link):
-    print("New link delay update" + link.intf1.name + " t=" + str(time.time()))
+    #print("New link delay update" + link.intf1.name + " t=" + str(time.time()))
     randomDelay = random.randint(1, 10)
+    randomLoss = random.randint(0, 10)
     randomBandwidth = random.randint(1, 100)/10.0
     attribute = sys.argv[1]
     if attribute == "delay":
@@ -219,10 +220,22 @@ def scheduleLinkStateUpdates(link):
             updatedParams[link.intf1.name] = link.intf1.params
         updatedParams[link.intf1.name]["delay"] = str(randomDelay) + 'ms'
     elif attribute == "bw":
-        print("Updating bw to %f" % randomBandwidth)
+        #print("Updating bw to %f" % randomBandwidth)
         link.intf1.config(bw=randomBandwidth)
         if link.intf1.name not in updatedParams:
             updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["bw"] = str(randomBandwidth)
+    elif attribute == "loss":
+        link.intf1.config(loss=randomBandwidth)
+        if link.intf1.name not in updatedParams:
+            updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["loss"] = str(randomBandwidth)
+    elif attribute == "delaybw":
+        link.intf1.config(delay=(str(randomDelay) + 'ms'))
+        if link.intf1.name not in updatedParams:
+            updatedParams[link.intf1.name] = link.intf1.params
+        updatedParams[link.intf1.name]["delay"] = str(randomDelay) + 'ms'
+        link.intf1.config(bw=randomBandwidth)
         updatedParams[link.intf1.name]["bw"] = str(randomBandwidth)
     else:
         if link.intf1.name not in updatedParams:
@@ -232,7 +245,7 @@ def scheduleLinkStateUpdates(link):
 
 
 def scheduleTopologyStoring(net, filename):
-    print(updatedParams)
+    #print(updatedParams)
     storeTopologyState(net, filename, "w")
     scheduler.enter(5, 1, scheduleTopologyStoring, [net, "networkdata.json"])
 
@@ -256,7 +269,7 @@ def storeTopologyState(net, filename, action):
     }
 
     for link in net.links:
-        print( link.intf1.params, link.intf1.node.name, link.intf1, link.intf1.MAC(), link.intf1.IP(), link.intf2, link.intf2.node.name, link.intf2.MAC(), link.intf2.IP(), link.intf1.params)
+        #print( link.intf1.params, link.intf1.node.name, link.intf1, link.intf1.MAC(), link.intf1.IP(), link.intf2, link.intf2.node.name, link.intf2.MAC(), link.intf2.IP(), link.intf1.params)
         #print(link.intf1.config())
         startName = link.intf1.node.name
         startIP = None if startName not in hostToIp else hostToIp[startName]

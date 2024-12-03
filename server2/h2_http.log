@@ -1,3 +1,4 @@
-10.0.0.1 - - [26/Nov/2024 04:27:21] "GET / HTTP/1.1" 200 -
-10.0.0.1 - - [26/Nov/2024 04:27:25] "GET / HTTP/1.1" 200 -
-10.0.0.1 - - [26/Nov/2024 04:27:28] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "server.py", line 1, in <module>
+    import http.server
+ImportError: No module named http.server
